@@ -1,0 +1,21 @@
+2021-02-24
+
+1：case判断：若无遇到break会一直执行到大括号结束为止
+2: 线程：run是线程执行的入口，start是启动该线程的方法。若无start使进程处于就绪态，那run只是普通方法
+3：继承：单继承，但是可以实现多个接口
+4：final： 	final成员变量必须在声明的时候初始化或者在构造器中初始化，否则就会报编译错误
+			不能对final重新赋值
+			final的本地变量必须在声明时赋值
+			在匿名类中所有变量都必须是final
+			final不能被重写
+			final类不能继承
+5： +、-、*、/、%、运算操作
+			两个操作数中有一个是double类型的，另一个将会被转换成double类型
+			两个操作数中有一个是float类型的，另一个将会被转换为float类型
+			两个操作数中有一个是long类型的，另一个将会被转换成long类型
+			操作数为：byte、short、int 、char：两个数都会被转换成int类型，并且结果也是int类型
+6：强引用/软引用/弱引用/虚引用
+	强：显示的对象定义，不会被回收，除非显示定义为null
+	软：SoftReference，除非内存不够
+	弱：WeakReference，只要jvm开始进行gc
+	虚：PhantomReference，和ReferenceQueue 引用队列一起使用，随时可能被回收
