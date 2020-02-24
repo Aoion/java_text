@@ -19,4 +19,4 @@
 	软：SoftReference，除非内存不够
 	弱：WeakReference，只要jvm开始进行gc
 	虚：PhantomReference，和ReferenceQueue 引用队列一起使用，随时可能被回收
-7：
+7：	按时打卡的
